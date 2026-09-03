@@ -90,6 +90,6 @@ Build this overview from the completed per-skill analyses. Do not reread all sou
 
 ## Publish
 
-Verify that the overview marker is gone, every TSV `skill` row has exactly one detail section and one contents entry, token values match the TSV, each metadata block preserves its complete source frontmatter, and the draft contains no unfinished placeholders. Then atomically move the draft to `output/{label}-skill-analysis.md`.
+Verify that the overview marker is gone, every TSV `skill` row has exactly one detail section and one contents entry, token values match the TSV, each metadata block preserves its complete source frontmatter, and the draft contains no unfinished placeholders. Then atomically move the draft to `output/{label}-skill-analysis.md`. After moving, verify the temporary draft no longer exists and delete it if it does, so no draft file remains.
 
 Tell the user the generated path and give only a brief completion summary. Do not repeat the full report in chat.
