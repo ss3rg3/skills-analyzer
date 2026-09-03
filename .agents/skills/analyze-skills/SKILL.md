@@ -26,8 +26,6 @@ scripts/list-skill-files-with-token-count.sh --format tsv "<target-path>"
 
 If the script fails, its TSV is malformed, its total is not numeric, or it contains no `skill` rows, respond with a message beginning `🔴` and stop without reading any skill files.
 
-If the total is greater than 100,000 tokens and the user has not explicitly approved analyzing that reported total, respond with a message beginning `🔴`. State the total, warn that the target directory may create context pressure and reduce analysis quality, explain that `ttok` may not match the active model's tokenizer exactly, and ask for explicit confirmation. Stop without reading any skill files until the user confirms.
-
 After preflight passes, ask the user:
 
 > What context or special instructions should guide this analysis? For example, I can mark skills related to code quality or emphasize particular tools or risks. Reply `none` for a general analysis.
