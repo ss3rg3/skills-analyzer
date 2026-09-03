@@ -1,0 +1,15 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":red_square:",
+    ":exclamation:",
+    ":yellow_circle:",
+    ":pencil:",
+    ":pencil2:",
+    ":blond_haired_man:",
+    ":warning:"
+  ]
+}
