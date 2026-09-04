@@ -1,5 +1,5 @@
 ---
-name: analyze-skills
+name: analyze-skills-old
 description: Analyze every SKILL.md under a given directory path (relative or absolute) and generate a context-aware Markdown overview. Use when the user invokes /analyze-skills with a directory path.
 disable-model-invocation: true
 ---

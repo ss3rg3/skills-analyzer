@@ -30,7 +30,7 @@ Understanding this is required before tuning.
 
 ### Todo list
 
-- [ ] Pick a cheap, fast model for one-shots, e.g. `anthropic/claude-haiku-4-5`, `opencode/gpt-5-mini`, `google/gemini-2.5-flash`.
+- [ ] Pick a cheap, fast model for one-shots, e.g. `openai/gpt-5.6-luna`.
 - [ ] Create agent file: `.opencode/agents/llm-direct.md` (project) or `~/.config/opencode/agents/llm-direct.md` (global).
 - [ ] Set frontmatter: `mode: subagent`, `model: <provider/model>`, `description: <when to use>`.
 - [ ] Set minimal `prompt` / `system`: e.g. `You are a helpful assistant. Answer directly, no tools.`.
