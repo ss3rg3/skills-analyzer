@@ -1,5 +1,16 @@
 # skills-analyzer
 
+## To-Do's 
+
+This thing is conceptionally trash. It loads the skill files one-by-one into context and then summarizes them, i.e. it 
+sends the WHOLE history for every subsequent request. If you want to talk to documents, just load them all at once into context.
+If you want to process each, then have external API calls or subagents (if you want to use the subscription).
+Just create a Python script that walks the subdirs, provide it with a system prompt from a file, and the content 
+of each file as user prompt, store the results into a file. Then a big LLM can summarize or classify them or whatever.  
+
+See `.agents/minimal-one-shot-subagents.md` for using subagents to use your subscription instead. 
+
+
 ## Shared scripts
 
 `scripts/list-skill-files-with-token-count.sh` discovers every `SKILL.md` beneath a given directory (relative or absolute) and counts its tokens with `ttok`.
