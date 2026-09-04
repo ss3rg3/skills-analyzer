@@ -1,5 +1,5 @@
 ---
-name: list-skill-files-with-token-count
+name: analyze-token-counts-of-skill-files
 description: Generate a Markdown table of every SKILL.md file under a given directory path (relative or absolute) and its ttok token count.
 disable-model-invocation: true
 ---
